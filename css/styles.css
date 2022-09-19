@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+.image2 {
+	width: 85px;
+	
+.headerLeft .image1{
+	width:26px;
+}
+.image3{
+	width:26px;
+}
+.image4{
+	width:26px;
+}
+.image5{
+	width:26px;
+}
+
+.image6{
+	width:26px;
+}
+
+.header input {
+	border: none;
+	
+	padding: 10px;
+	outline: none;
+	font-size: medium;
+	background-color: transparent;
+}
+
+.headerMiddle input {
+	border: none;
+	width: 100%;
+	padding: 5px;
+	outline: none;
+	font-size: medium;
+	background-color: transparent;
+}
+.headerMiddle {
+	display: flex;S
+	flex: 0.6;
+	align-items: center;
+	background-color: whitesmoke;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 250px;
+}
+.headerRight{
+	margin-left: 5px;
+}
+
