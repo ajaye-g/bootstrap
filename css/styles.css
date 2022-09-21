@@ -3,16 +3,19 @@
 	padding: 0;
 
 }
+
 .image2 {
 	width: 85px;
-	cursor:pointer;	
+	cursor: pointer;
 }
-.image{
-	width:26px;
-	cursor:pointer;
+
+.image {
+	width: 26px;
+	cursor: pointer;
 }
+
 .col-7 input {
-	border:none;
+	border: none;
 	outline: none;
 	font-size: medium;
 	background-color: transparent;
@@ -22,7 +25,7 @@
 .col-7 {
 	background-color: #e0dada;
 	border-radius: 6px;
-	
+
 }
 
 /* sidebar */
@@ -43,41 +46,34 @@
 	border: none;
 	box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
 }
+
 .sidebaroption {
 	display: flex;
 	align-items: center;
-	padding:10px;
+	padding: 10px;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	cursor: pointer;
 	color: #818181;
 	width: 200px;
 }
+
 .sidebaroption h3 {
-	
+
 	margin-left: 10px;
 	font-size: 14px;
 	font-weight: 400;
 }
+
 .sidebaroption:hover,
 .sidebaroption:hover h3,
-.sidebaroption:hover .material-symbols-outlined,
-.sidebaroption_active,
-.sidebaroption_active h3,
-.sidebaroption_active .material-symbols-outlined {
+.sidebaroptionActive,
+.sidebaroptionActive h3 {
 	background-color: #fcecec;
 	font-weight: 800;
 }
 
-.sidebar-footer {
-	display: flex;
-	justify-content: center;
-}
 
-.sidebar_footericons .material-symbols-outlined {
-	margin: 7px;
-	cursor: pointer;
-}
 .section {
 	display: flex;
 	align-items: center;
@@ -86,25 +82,33 @@
 	cursor: pointer;
 	color: gray;
 	border-width: 0;
-	padding:15px;
+	padding: 15px;
 }
+
 .section_selected {
 	background-color: whitesmoke;
 	border-width: 3px;
 	color: red;
 	border-bottom: 3px solid red;
 }
+
 .section:hover {
 	background-color: whitesmoke;
 	border-width: 3px;
 }
+
 .section b {
 	font-size: 14px;
 	margin-left: 15px;
 }
 
 
-.row:hover {
+.settings:hover {
+	border-top: 1px solid whitesmoke;
+	box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 24);
+}
+
+.settings1 {
 	border-top: 1px solid whitesmoke;
 	box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 24);
 }
